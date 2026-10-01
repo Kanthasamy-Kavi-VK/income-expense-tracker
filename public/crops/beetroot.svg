@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" width="100%" height="100%">
+  <defs>
+    <linearGradient id="beetGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#9f1239" />
+      <stop offset="50%" stop-color="#881337" />
+      <stop offset="100%" stop-color="#4c0519" />
+    </linearGradient>
+    <linearGradient id="leafGrad1" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#15803d" />
+      <stop offset="100%" stop-color="#22c55e" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-opacity="0.18" />
+    </filter>
+  </defs>
+  <!-- Leaves -->
+  <path d="M78 50 C65 25, 45 15, 38 8 C52 18, 68 28, 76 50 Z" fill="url(#leafGrad1)" />
+  <path d="M48 20 Q65 30 76 48" stroke="#be123c" stroke-width="2" fill="none" />
+  <path d="M80 50 C80 20, 85 10, 82 2 C88 15, 90 28, 82 50 Z" fill="#16a34a" />
+  <path d="M82 15 Q83 30 81 48" stroke="#be123c" stroke-width="2" fill="none" />
+  <path d="M82 50 C95 25, 115 15, 122 8 C108 18, 92 28, 84 50 Z" fill="url(#leafGrad1)" />
+  <path d="M112 20 Q95 30 84 48" stroke="#be123c" stroke-width="2" fill="none" />
+  <!-- Bulb -->
+  <path d="M80 48 C42 48 35 88 48 112 C58 128 75 138 80 148 C85 138 102 128 112 112 C125 88 118 48 80 48 Z" fill="url(#beetGrad)" filter="url(#shadow)" />
+  <!-- Ridges & texture -->
+  <path d="M52 85 Q80 92 108 85" stroke="#be123c" stroke-width="2.5" fill="none" opacity="0.4" stroke-linecap="round" />
+  <path d="M56 102 Q80 108 104 102" stroke="#be123c" stroke-width="2.5" fill="none" opacity="0.4" stroke-linecap="round" />
+  <path d="M65 118 Q80 123 95 118" stroke="#be123c" stroke-width="2" fill="none" opacity="0.3" stroke-linecap="round" />
+  <!-- Tail root -->
+  <path d="M80 148 Q78 155 80 159" stroke="#9f1239" stroke-width="2.5" fill="none" stroke-linecap="round" />
+</svg>

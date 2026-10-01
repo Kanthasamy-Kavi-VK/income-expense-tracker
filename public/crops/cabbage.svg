@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" width="100%" height="100%">
+  <defs>
+    <linearGradient id="cabBase" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#86efac" />
+      <stop offset="50%" stop-color="#4ade80" />
+      <stop offset="100%" stop-color="#16a34a" />
+    </linearGradient>
+    <linearGradient id="outerLeaf" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#22c55e" />
+      <stop offset="100%" stop-color="#15803d" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-opacity="0.15" />
+    </filter>
+  </defs>
+  <!-- Outer leaf back -->
+  <path d="M22 90 C15 50 40 25 80 25 C120 25 145 50 138 90 C130 130 90 145 80 145 C70 145 30 130 22 90 Z" fill="url(#outerLeaf)" filter="url(#shadow)" />
+  <!-- Outer leaf curl left -->
+  <path d="M20 85 C22 55 50 38 75 42 C60 60 50 85 52 115 C35 110 22 98 20 85 Z" fill="#16a34a" />
+  <!-- Outer leaf curl right -->
+  <path d="M140 85 C138 55 110 38 85 42 C100 60 110 85 108 115 C125 110 138 98 140 85 Z" fill="#16a34a" />
+  <!-- Inner core ball -->
+  <circle cx="80" cy="88" r="44" fill="url(#cabBase)" />
+  <!-- Inner leaf overlapping curls and veins -->
+  <path d="M50 75 C60 60 85 58 105 68 C90 85 70 95 50 75 Z" fill="#bbf7d0" opacity="0.8" />
+  <path d="M110 75 C100 90 75 98 60 112 C75 125 105 118 115 100 C120 90 118 80 110 75 Z" fill="#86efac" opacity="0.9" />
+  <path d="M55 95 C65 115 95 120 105 105 C90 112 70 110 55 95 Z" fill="#bbf7d0" opacity="0.9" />
+  <!-- Leaf veins -->
+  <path d="M80 62 Q78 95 80 120" stroke="#f0fdf4" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.9" />
+  <path d="M80 80 Q65 72 58 75 M80 88 Q65 90 56 94 M80 100 Q68 105 62 110" stroke="#f0fdf4" stroke-width="2" stroke-linecap="round" fill="none" opacity="0.7" />
+  <path d="M80 80 Q95 72 102 75 M80 88 Q95 90 104 94 M80 100 Q92 105 98 110" stroke="#f0fdf4" stroke-width="2" stroke-linecap="round" fill="none" opacity="0.7" />
+</svg>

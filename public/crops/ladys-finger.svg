@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" width="100%" height="100%">
+  <defs>
+    <linearGradient id="okraRidge1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#15803d" />
+      <stop offset="100%" stop-color="#22c55e" />
+    </linearGradient>
+    <linearGradient id="okraRidge2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#4ade80" />
+      <stop offset="100%" stop-color="#16a34a" />
+    </linearGradient>
+    <linearGradient id="capGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#166534" />
+      <stop offset="100%" stop-color="#14532d" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-opacity="0.18" />
+    </filter>
+  </defs>
+  <!-- Main Lady's finger pod tilted -->
+  <g transform="rotate(25 80 80)" filter="url(#shadow)">
+    <!-- Base tapered pod body -->
+    <path d="M68 38 C68 38 65 95 72 135 C74 145 76 154 78 158 C80 154 82 145 84 135 C91 95 88 38 88 38 Z" fill="#15803d" />
+    <!-- Ridge facets showing 5-sided geometry -->
+    <path d="M68 38 C68 38 66 95 73 135 L78 158 L77 135 C73 95 73 38 73 38 Z" fill="url(#okraRidge1)" />
+    <path d="M73 38 C73 38 73 95 77 135 L78 158 L80 135 C83 95 83 38 83 38 Z" fill="url(#okraRidge2)" />
+    <path d="M83 38 C83 38 83 95 80 135 L78 158 L84 135 C88 95 88 38 88 38 Z" fill="#166534" />
+    <!-- Ridge lines -->
+    <path d="M73 38 Q74 95 78 158" stroke="#86efac" stroke-width="1.8" fill="none" opacity="0.8" />
+    <path d="M83 38 Q81 95 78 158" stroke="#86efac" stroke-width="1.8" fill="none" opacity="0.8" />
+    <!-- Top Cap (Pentagonal calyx collar) -->
+    <path d="M64 38 C64 34 92 34 92 38 L90 42 C85 45 71 45 66 42 Z" fill="url(#capGrad)" />
+    <!-- Stem tip -->
+    <path d="M76 34 L76 18 C76 15 80 15 80 18 L80 34 Z" fill="#14532d" />
+    <path d="M75 18 Q78 14 81 18" stroke="#4ade80" stroke-width="1.5" fill="none" />
+  </g>
+  <!-- Small slice / cross section in corner showing stars -->
+  <g transform="translate(20, 105)">
+    <polygon points="20,5 34,15 29,32 11,32 6,15" fill="#22c55e" stroke="#15803d" stroke-width="2" />
+    <circle cx="20" cy="19" r="3" fill="#ffffff" opacity="0.9" />
+    <circle cx="16" cy="14" r="1.8" fill="#ffffff" opacity="0.9" />
+    <circle cx="24" cy="14" r="1.8" fill="#ffffff" opacity="0.9" />
+    <circle cx="22" cy="24" r="1.8" fill="#ffffff" opacity="0.9" />
+    <circle cx="18" cy="24" r="1.8" fill="#ffffff" opacity="0.9" />
+  </g>
+</svg>

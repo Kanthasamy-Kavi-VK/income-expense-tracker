@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bottleGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#bbf7d0" />
+      <stop offset="40%" stop-color="#86efac" />
+      <stop offset="80%" stop-color="#4ade80" />
+      <stop offset="100%" stop-color="#16a34a" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-opacity="0.16" />
+    </filter>
+  </defs>
+  <!-- Main Bottle Gourd shape (narrow neck, rounded upper bulb, waist, large lower bulb) -->
+  <path d="M74 38 C62 42 58 55 60 68 C62 78 68 84 66 92 C60 102 48 115 50 132 C54 148 70 156 82 156 C98 156 112 148 114 132 C116 115 104 102 98 92 C96 84 102 78 104 68 C106 55 102 42 90 38 Z" fill="url(#bottleGrad)" filter="url(#shadow)" />
+  <!-- Gloss highlight along curve -->
+  <path d="M72 45 C66 52 65 65 67 75 M70 102 C62 112 58 125 60 138" stroke="#ffffff" stroke-width="4" stroke-linecap="round" fill="none" opacity="0.6" />
+  <path d="M70 48 C66 55 65 65 67 73" stroke="#ffffff" stroke-width="1.8" stroke-linecap="round" fill="none" opacity="0.8" />
+  <!-- Soft subtle skin speckles -->
+  <circle cx="85" cy="60" r="1.5" fill="#15803d" opacity="0.3" />
+  <circle cx="75" cy="72" r="1.5" fill="#15803d" opacity="0.3" />
+  <circle cx="95" cy="115" r="2" fill="#15803d" opacity="0.3" />
+  <circle cx="80" cy="130" r="2" fill="#15803d" opacity="0.3" />
+  <circle cx="88" cy="142" r="1.8" fill="#15803d" opacity="0.3" />
+  <!-- Stem cap and curling tendril -->
+  <path d="M76 38 C76 34 88 34 88 38 Z" fill="#15803d" />
+  <path d="M82 36 Q80 20 88 12 Q94 8 98 15" stroke="#15803d" stroke-width="3.5" stroke-linecap="round" fill="none" />
+  <path d="M92 10 Q105 12 106 24 Q107 32 115 32" stroke="#22c55e" stroke-width="1.8" stroke-linecap="round" fill="none" />
+</svg>

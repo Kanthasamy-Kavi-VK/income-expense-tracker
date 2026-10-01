@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4ade80" />
+      <stop offset="50%" stop-color="#16a34a" />
+      <stop offset="100%" stop-color="#14532d" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-opacity="0.18" />
+    </filter>
+  </defs>
+  <g transform="rotate(-35 80 80)" filter="url(#shadow)">
+    <!-- Base spindle shape -->
+    <path d="M80 20 C60 50 50 85 55 115 C58 135 75 148 80 152 C85 148 102 135 105 115 C110 85 100 50 80 20 Z" fill="url(#bgGrad)" />
+    <!-- Bumpy ridges characteristic of bitter gourd / pavakkai -->
+    <!-- Left bumpy ridge -->
+    <path d="M60 45 Q52 55 58 65 Q50 75 56 85 Q48 98 56 110 Q54 125 70 140" fill="none" stroke="#22c55e" stroke-width="4.5" stroke-linecap="round" />
+    <!-- Center left bumpy ridge -->
+    <path d="M70 30 Q65 45 70 58 Q64 70 70 85 Q65 100 72 118 Q70 135 78 148" fill="none" stroke="#86efac" stroke-width="4" stroke-linecap="round" />
+    <!-- Center bumpy ridge -->
+    <path d="M80 22 Q76 40 82 55 Q77 70 82 88 Q78 108 81 128 Q79 142 80 150" fill="none" stroke="#dcfce7" stroke-width="3" stroke-linecap="round" opacity="0.9" />
+    <!-- Center right bumpy ridge -->
+    <path d="M90 30 Q95 45 90 58 Q96 70 90 85 Q95 100 88 118 Q90 135 82 148" fill="none" stroke="#15803d" stroke-width="4" stroke-linecap="round" />
+    <!-- Right bumpy ridge -->
+    <path d="M100 45 Q108 55 102 65 Q110 75 104 85 Q112 98 104 110 Q106 125 90 140" fill="none" stroke="#14532d" stroke-width="4.5" stroke-linecap="round" />
+    <!-- Warts/bumps -->
+    <circle cx="68" cy="50" r="3" fill="#86efac" />
+    <circle cx="92" cy="52" r="3" fill="#15803d" />
+    <circle cx="65" cy="78" r="3.5" fill="#86efac" />
+    <circle cx="94" cy="80" r="3.5" fill="#166534" />
+    <circle cx="67" cy="105" r="3.5" fill="#86efac" />
+    <circle cx="92" cy="108" r="3" fill="#166534" />
+    <!-- Stem curved -->
+    <path d="M80 20 Q82 10 90 6" stroke="#15803d" stroke-width="3.5" stroke-linecap="round" fill="none" />
+  </g>
+</svg>

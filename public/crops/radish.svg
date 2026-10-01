@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" width="100%" height="100%">
+  <defs>
+    <linearGradient id="radishGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#e11d48" />
+      <stop offset="45%" stop-color="#fb7185" />
+      <stop offset="75%" stop-color="#ffffff" />
+      <stop offset="100%" stop-color="#f1f5f9" />
+    </linearGradient>
+    <linearGradient id="radishLeaf" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#16a34a" />
+      <stop offset="100%" stop-color="#4ade80" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-opacity="0.15" />
+    </filter>
+  </defs>
+  <!-- Greens -->
+  <path d="M78 52 C60 30 45 18 35 12 C48 24 64 35 75 52 Z" fill="url(#radishLeaf)" />
+  <path d="M80 50 C80 20 85 8 82 2 C88 15 90 30 82 50 Z" fill="#22c55e" />
+  <path d="M82 52 C100 30 115 18 125 12 C112 24 96 35 85 52 Z" fill="url(#radishLeaf)" />
+  <!-- Radish cone body -->
+  <path d="M62 58 C55 68 54 85 60 105 C66 122 75 142 80 152 C85 142 94 122 100 105 C106 85 105 68 98 58 C90 52 70 52 62 58 Z" fill="url(#radishGrad)" filter="url(#shadow)" />
+  <!-- Top curve -->
+  <ellipse cx="80" cy="56" rx="18" ry="6" fill="#be123c" />
+  <!-- Root hairs and lines -->
+  <path d="M66 90 Q72 92 76 90 M84 96 Q88 98 94 96 M68 112 Q74 114 78 112 M82 125 Q86 126 90 125" stroke="#cbd5e1" stroke-width="1.8" stroke-linecap="round" fill="none" />
+  <!-- Root tip -->
+  <path d="M80 152 Q82 157 80 160" stroke="#cbd5e1" stroke-width="2" stroke-linecap="round" fill="none" />
+</svg>

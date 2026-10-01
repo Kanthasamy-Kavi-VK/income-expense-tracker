@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" width="100%" height="100%">
+  <defs>
+    <linearGradient id="podOuter" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4ade80" />
+      <stop offset="60%" stop-color="#16a34a" />
+      <stop offset="100%" stop-color="#14532d" />
+    </linearGradient>
+    <linearGradient id="podInner" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#dcfce7" />
+      <stop offset="100%" stop-color="#86efac" />
+    </linearGradient>
+    <radialGradient id="peaGrad" cx="35%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#bbf7d0" />
+      <stop offset="30%" stop-color="#4ade80" />
+      <stop offset="80%" stop-color="#16a34a" />
+      <stop offset="100%" stop-color="#15803d" />
+    </radialGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-opacity="0.16" />
+    </filter>
+  </defs>
+  <!-- Main pod shell curved -->
+  <path d="M15 130 C30 115 50 65 110 32 C125 24 140 22 148 20 C145 28 140 45 130 65 C105 115 65 142 15 130 Z" fill="url(#podOuter)" filter="url(#shadow)" />
+  <!-- Inner groove where peas sit -->
+  <path d="M25 125 C45 105 75 70 125 40 C130 50 120 75 105 98 C78 128 45 132 25 125 Z" fill="url(#podInner)" />
+  <!-- 4 Round plump Peas inside pod -->
+  <circle cx="45" cy="112" r="13" fill="url(#peaGrad)" />
+  <circle cx="68" cy="92" r="14" fill="url(#peaGrad)" />
+  <circle cx="94" cy="72" r="14" fill="url(#peaGrad)" />
+  <circle cx="118" cy="52" r="12" fill="url(#peaGrad)" />
+  <!-- Highlights on peas -->
+  <circle cx="41" cy="107" r="3" fill="#ffffff" opacity="0.6" />
+  <circle cx="64" cy="87" r="3.5" fill="#ffffff" opacity="0.6" />
+  <circle cx="90" cy="67" r="3.5" fill="#ffffff" opacity="0.6" />
+  <circle cx="115" cy="48" r="2.8" fill="#ffffff" opacity="0.6" />
+  <!-- Stem / calyx on pod tip -->
+  <path d="M148 20 C155 18 158 12 154 8 C148 10 144 15 142 20 Z" fill="#15803d" />
+  <path d="M145 22 Q155 25 158 24" stroke="#166534" stroke-width="2" fill="none" />
+</svg>

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" width="100%" height="100%">
+  <defs>
+    <linearGradient id="beanGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4ade80" />
+      <stop offset="50%" stop-color="#16a34a" />
+      <stop offset="100%" stop-color="#14532d" />
+    </linearGradient>
+    <linearGradient id="beanGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#86efac" />
+      <stop offset="50%" stop-color="#22c55e" />
+      <stop offset="100%" stop-color="#15803d" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-opacity="0.16" />
+    </filter>
+  </defs>
+  <!-- Bean 1 (Looping background) -->
+  <path d="M30 30 C70 15, 135 25, 140 70 C145 115, 95 145, 55 140 C25 135, 15 95, 35 65" fill="none" stroke="url(#beanGrad1)" stroke-width="8" stroke-linecap="round" filter="url(#shadow)" />
+  <!-- Bean 2 (Front overlapping sweep) -->
+  <path d="M45 25 C90 10, 150 40, 130 95 C115 135, 60 150, 30 120 C10 95, 30 50, 70 45" fill="none" stroke="url(#beanGrad2)" stroke-width="8" stroke-linecap="round" filter="url(#shadow)" />
+  <!-- Bean 3 (Middle companion strand) -->
+  <path d="M38 28 C80 18, 125 35, 135 78 C140 108, 105 138, 70 142" fill="none" stroke="#16a34a" stroke-width="7" stroke-linecap="round" />
+  <!-- Highlights and seed bumps along beans -->
+  <path d="M50 25 C85 15, 130 35, 125 80" fill="none" stroke="#bbf7d0" stroke-width="1.8" opacity="0.6" stroke-linecap="round" />
+  <path d="M125 88 C115 125, 75 138, 45 125" fill="none" stroke="#bbf7d0" stroke-width="1.8" opacity="0.6" stroke-linecap="round" />
+  <!-- Tied band holding bundle -->
+  <path d="M32 24 Q38 30 46 26" stroke="#ca8a04" stroke-width="6" stroke-linecap="round" fill="none" />
+  <path d="M33 25 Q39 31 47 27" stroke="#facc15" stroke-width="2.5" stroke-linecap="round" fill="none" />
+</svg>

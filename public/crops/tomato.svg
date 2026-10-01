@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" width="100%" height="100%">
+  <defs>
+    <radialGradient id="tomGrad" cx="38%" cy="38%" r="62%">
+      <stop offset="0%" stop-color="#ff6b6b" />
+      <stop offset="35%" stop-color="#ef4444" />
+      <stop offset="75%" stop-color="#dc2626" />
+      <stop offset="100%" stop-color="#991b1b" />
+    </radialGradient>
+    <linearGradient id="calyxGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4ade80" />
+      <stop offset="100%" stop-color="#15803d" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="5" stdDeviation="5" flood-opacity="0.18" />
+    </filter>
+  </defs>
+  <!-- Tomato main body -->
+  <path d="M80 45 C50 42 32 60 32 92 C32 125 55 145 80 145 C105 145 128 125 128 92 C128 60 110 42 80 45 Z" fill="url(#tomGrad)" filter="url(#shadow)" />
+  <!-- Gloss highlight shine -->
+  <ellipse cx="58" cy="72" rx="14" ry="9" transform="rotate(-30 58 72)" fill="#ffffff" opacity="0.45" />
+  <circle cx="50" cy="65" r="3.5" fill="#ffffff" opacity="0.65" />
+  <!-- Calyx star leaves on top -->
+  <!-- Stem -->
+  <path d="M80 46 Q80 28 88 20 Q92 16 98 18" stroke="#15803d" stroke-width="4.5" stroke-linecap="round" fill="none" />
+  <!-- Star Sepals -->
+  <path d="M80 46 Q65 35 52 38 Q65 48 76 48 Z" fill="url(#calyxGrad)" />
+  <path d="M80 46 Q58 52 48 62 Q66 60 76 50 Z" fill="url(#calyxGrad)" />
+  <path d="M80 46 Q95 35 108 38 Q95 48 84 48 Z" fill="url(#calyxGrad)" />
+  <path d="M80 46 Q102 52 112 62 Q94 60 84 50 Z" fill="url(#calyxGrad)" />
+  <path d="M80 46 Q80 62 80 68 Q83 58 84 50 Z" fill="#166534" />
+  <circle cx="80" cy="46" r="4" fill="#15803d" />
+</svg>

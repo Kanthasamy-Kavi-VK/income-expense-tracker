@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" width="100%" height="100%">
+  <defs>
+    <linearGradient id="snakeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#bbf7d0" />
+      <stop offset="50%" stop-color="#86efac" />
+      <stop offset="100%" stop-color="#22c55e" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-opacity="0.16" />
+    </filter>
+  </defs>
+  <!-- Curving snake-like gourd body (thick path or filled shape) -->
+  <g filter="url(#shadow)">
+    <!-- Main S-curve thick gourd body -->
+    <path d="M48 20 C90 12, 120 40, 115 75 C110 105, 55 100, 52 128 C50 148, 70 156, 85 152" fill="none" stroke="url(#snakeGrad)" stroke-width="18" stroke-linecap="round" />
+    <!-- White longitudinal characteristic stripes of snake gourd -->
+    <path d="M48 18 C88 10, 117 38, 112 73 C107 103, 53 98, 50 126 C48 146, 68 154, 83 150" fill="none" stroke="#f0fdf4" stroke-width="2.5" stroke-linecap="round" opacity="0.9" />
+    <path d="M50 24 C86 16, 113 43, 108 77 C103 107, 57 102, 54 130 C52 148, 70 156, 82 153" fill="none" stroke="#ffffff" stroke-width="1.8" stroke-dasharray="6,4" stroke-linecap="round" opacity="0.85" />
+    <path d="M45 16 C85 8, 118 35, 114 70 C110 100, 50 95, 48 123 C46 142, 65 150, 80 148" fill="none" stroke="#dcfce7" stroke-width="1.8" stroke-linecap="round" opacity="0.75" />
+    <!-- Pointed bottom tip -->
+    <circle cx="85" cy="152" r="5" fill="#16a34a" />
+    <!-- Stem at top -->
+    <path d="M48 20 Q40 16 35 18" stroke="#15803d" stroke-width="4" stroke-linecap="round" fill="none" />
+  </g>
+  <!-- Traditional small stone tied to keep snake gourd straight (farmer detail) -->
+  <path d="M85 152 L85 157" stroke="#78716c" stroke-width="1.5" />
+  <ellipse cx="85" cy="158" rx="3.5" ry="2.5" fill="#a8a29e" />
+</svg>

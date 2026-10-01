@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" width="100%" height="100%">
+  <defs>
+    <linearGradient id="spinachDark" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#14532d" />
+      <stop offset="100%" stop-color="#15803d" />
+    </linearGradient>
+    <linearGradient id="spinachMid" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#15803d" />
+      <stop offset="100%" stop-color="#22c55e" />
+    </linearGradient>
+    <linearGradient id="spinachLight" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#16a34a" />
+      <stop offset="100%" stop-color="#4ade80" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-opacity="0.15" />
+    </filter>
+  </defs>
+  <!-- Background leaves -->
+  <path d="M42 120 C20 80 20 40 45 22 C65 8 82 35 78 75 C75 100 60 115 42 120 Z" fill="url(#spinachDark)" filter="url(#shadow)" />
+  <path d="M118 120 C140 80 140 40 115 22 C95 8 78 35 82 75 C85 100 100 115 118 120 Z" fill="url(#spinachDark)" filter="url(#shadow)" />
+  <!-- Center tall leaf -->
+  <path d="M72 135 C50 90 48 30 80 8 C112 30 110 90 88 135 Z" fill="url(#spinachMid)" filter="url(#shadow)" />
+  <path d="M80 15 Q79 70 80 135" stroke="#86efac" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.8" />
+  <path d="M80 50 Q66 40 58 45 M80 75 Q62 65 54 72 M80 100 Q65 92 60 98" stroke="#86efac" stroke-width="1.8" stroke-linecap="round" fill="none" opacity="0.6" />
+  <path d="M80 50 Q94 40 102 45 M80 75 Q98 65 106 72 M80 100 Q95 92 100 98" stroke="#86efac" stroke-width="1.8" stroke-linecap="round" fill="none" opacity="0.6" />
+  <!-- Front fresh leaf -->
+  <path d="M55 130 C45 105 48 70 70 55 C90 70 95 105 85 130 Z" fill="url(#spinachLight)" />
+  <path d="M70 58 Q72 90 70 130" stroke="#bbf7d0" stroke-width="2.5" stroke-linecap="round" fill="none" opacity="0.8" />
+  <!-- Stems tied at base -->
+  <path d="M68 130 Q70 148 72 156 M75 132 Q76 148 77 157 M82 130 Q80 148 79 156" stroke="#86efac" stroke-width="3.5" stroke-linecap="round" fill="none" />
+</svg>
